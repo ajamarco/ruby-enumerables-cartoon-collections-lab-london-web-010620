@@ -8,8 +8,8 @@ def summon_captain_planet(planets_array)
   value_to_return
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(planets_array)
+  
 end
 
 def find_the_cheese# code an argument here
