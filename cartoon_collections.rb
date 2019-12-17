@@ -13,7 +13,10 @@ def long_planeteer_calls(planets_array)
   return false
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(snacks_arrays)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  return_value = nil
+  cheese_types.length.times do |cheese|
+    snacks_arrays.map{|snack| 
+  end 
 end
