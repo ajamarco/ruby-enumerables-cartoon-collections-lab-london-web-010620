@@ -16,11 +16,6 @@ end
 def find_the_cheese(snacks_arrays)
   cheese_types = ["cheddar", "gouda", "camembert"]
   return_value = nil
-  cheese_types.length.times do |cheese|
-    return_value = snacks_arrays.include?(cheese)
-    if return_value
-      return return_value
-    end 
-  end 
+  snacks_arrays.map{|snack| return snack if cheese_types.include?(snack)}
   return_value
 end
